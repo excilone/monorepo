@@ -7,7 +7,8 @@
     "dev": "turbo dev",
     "lint:pub": "turbo lint:pub",
     "types:check": "turbo types:check",
-    "lint": "biome check --write ."
+    "lint": "biome check --write .",
+    "test": "vitest"
   },
   "packageManager": "pnpm@10.28.0",
   "devDependencies": {
@@ -16,7 +17,8 @@
     "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
     "turbo": "^2.7.4",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.17"
   },
   "config": {
     "commitizen": {

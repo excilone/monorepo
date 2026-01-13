@@ -40,6 +40,7 @@
   "devDependencies": {
     "publint": "^0.3.16",
     "tsconfig": "workspace:*",
-    "tsdown": "0.20.0-beta.1"
+    "tsdown": "0.20.0-beta.1",
+    "vitest": "*"
   }
 }
