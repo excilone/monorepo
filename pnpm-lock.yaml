@@ -23,12 +23,20 @@ importers:
       turbo:
         specifier: ^2.7.4
         version: 2.7.4
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
 
   packages/main:
     devDependencies:
+      tsconfig:
+        specifier: workspace:*
+        version: link:../tsconfig
       tsdown:
         specifier: 0.20.0-beta.1
         version: 0.20.0-beta.1(typescript@5.9.3)
+
+  packages/tsconfig: {}
 
 packages:
 
@@ -2472,8 +2480,7 @@ snapshots:
 
   type-fest@0.21.3: {}
 
-  typescript@5.9.3:
-    optional: true
+  typescript@5.9.3: {}
 
   unconfig-core@7.4.2:
     dependencies:
