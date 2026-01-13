@@ -8,7 +8,8 @@
     "lint:pub": "turbo lint:pub",
     "types:check": "turbo types:check",
     "lint": "biome check --write .",
-    "test": "vitest"
+    "test": "vitest",
+    "release": "turbo build && changeset publish"
   },
   "packageManager": "pnpm@10.28.0",
   "devDependencies": {
