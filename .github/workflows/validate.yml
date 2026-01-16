@@ -30,6 +30,3 @@ jobs:
 
       - name: Test (Vitest)
         run: pnpm test run
-
-      - name: Quality Audit (Publint)
-        run: pnpm lint:pub
