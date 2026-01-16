@@ -9,4 +9,5 @@ export default defineConfig({
   minify: true,
   tsconfig: 'tsconfig.lib.json',
   platform: 'node',
+  publint: true,
 })

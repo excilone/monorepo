@@ -6,9 +6,6 @@
       "outputs": ["dist/**"]
     },
     "types:check": {},
-    "lint:pub": {
-      "dependsOn": ["build"]
-    },
     "dev": {
       "cache": false,
       "persistent": true
