@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "build": "tsdown",
-    "types:check": "tsc",
+    "types:check": "tsc -p tsconfig.lib.json",
     "lint:pub": "publint --strict"
   },
   "main": "./dist/index.cjs",
